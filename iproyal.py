@@ -1,8 +1,8 @@
 import requests
 
 proxies = {
-    "http" :"http://10.10.1.10:3128",
-    "https": "http://10.10.1.10:1080"
+    "http" :"http://10.10.1.10:1111",
+    "https": "http://10.10.1.10:1111"
 }
 requests.get("http://example.org", proxies=proxies)
 # Rotating requests through a proxy pool

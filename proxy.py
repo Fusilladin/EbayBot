@@ -23,7 +23,7 @@ extract(proxylist)
 #     executor.map(extract,proxylist)
 
 
-# proxy = '154.6.95.24'
+# proxy = '10.10.10.1'
 # try:
 #     r = requests.get('https://httpbin.org/ip', proxies={'http': proxy,'https':proxy},timeout=3)
 #     print(r.json())

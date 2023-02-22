@@ -6,8 +6,8 @@ BASE_URL = "https://books.toscrape.com/"
 url = BASE_URL + "catalogue/category/books/philosophy_7/index.html"
 
 PROXIES = {
-    "http" :"http://oLh11tm3M2yRbTBGd8ZU3nxmyIM56:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:12321"
-    ,"https":"http://oLh11tm3M2yRbTBGd8ZU3nxmyIM56:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:12321"
+    "http" :"http://oLh11tm3M2yRbTBGd8ZU3nxmyIM11:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:11111"
+    ,"https":"http://oLh11tm3M2yRbTBGd8ZU3nxmyIM11:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:11111"
 }
 
 # username, password = open('creds.txt','r').read().splitlines()

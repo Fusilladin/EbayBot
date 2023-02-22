@@ -9,7 +9,7 @@ server.listen()
 while True:
     client, addr = server.accept()
     client.send("Hello World".encode())
-    print(client.recv(1024).decode())
+    print(client.recv(1111).decode())
     client.close()
 
 

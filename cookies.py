@@ -19,8 +19,8 @@ service = r'C:\\chromedriver.exe'
 # chrome_options = uc.ChromeOptions()
 options = {
     'proxy': {
-        'http': 'http://oLh11tm3M2yRbTBGd8ZU3nxmyIM56:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:12321',
-        'https': 'http://oLh11tm3M2yRbTBGd8ZU3nxmyIM56:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:12321',
+        'http': 'http://oLh11tm3M2yRbTBGd8ZU3nxmyIM56:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:11111',
+        'https': 'http://oLh11tm3M2yRbTBGd8ZU3nxmyIM56:1gn2CVI8t04CD6up_country-us_skipispstatic-1@geo.iproyal.com:11111',
     }
 }
 driver = webdriver.Chrome(executable_path=service,
@@ -97,8 +97,7 @@ for url in urls:
                 bulq_boxes['category'].append(category_element)
                 bulq_boxes['main_website'].append(url)
                 bulq_boxes['box_url'].append(box_url_element)
-    print(bulq_boxes['box_url'])
-                
+    print(bulq_boxes['box_url'])   
                 
 '''
                 try:
@@ -117,7 +116,6 @@ for url in urls:
                 time.sleep(5)
                 # driver.close()
                 # driver.switch_to.window(parent)
-               
         
         else:
             if elem[9] == "+ Shipping": # box_url
@@ -133,9 +131,6 @@ for url in urls:
                 bulq_boxes['box_url'].append(box_url_element)
     print(bulq_boxes)
         
-
-
-
 
         time.sleep(1)
         items = elem.text #driver.find_element(By.XPATH,'//div[@class="col-lg-3 col-sm-4 col-xs-12 listing-square ng-scope ng-isolate-scope"]')    
@@ -166,12 +161,6 @@ for url in urls:
             
             break
             print(bulq_boxes)
-    
-
-
-
-
-
 
     
             time.sleep(120)
